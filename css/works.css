@@ -1,0 +1,130 @@
+
+.gallery-btns{
+
+	margin: 0px 0px 0 0;
+	padding:0;
+	list-style:none;
+    width:209px;
+
+
+}
+* html .gallery-btns{
+
+}
+.gallery-btns li{
+	float:left;
+
+}
+.gallery-btns a:hover, .gallery-btns li.active a {
+background-position:0 -6px;
+}
+.gallery-btns a {
+background:transparent url(../images/btn-gallery.gif) no-repeat scroll 0 0;
+display:block;
+height:5px;
+overflow:hidden;
+text-indent:-9999px;
+width:20px;
+}
+#buttonTwo a {
+background:transparent url(../images/btn-gallery-2.gif) no-repeat scroll 0 0;
+display:block;
+height:22px;
+overflow:hidden;
+text-indent:-9999px;
+width:37px;
+}
+.gallery{
+	margin:0px 0 0 0px;
+	/*width:900px;*/
+	position:relative;
+}
+.info{ display:none;}
+.btn-gallery{
+	height:15px;
+	width:10px;
+	text-indent:-9999px;
+	float:left;
+}
+
+.navi-wrap{
+	float:right;
+	margin:0;
+	width:76px;
+	height:22px;
+	position:relative;
+	margin:-26px 0 0 0;
+}
+.left{background:url(../images/left-arrow.jpg) no-repeat;}
+.right{background:url(../images/right-arrow.jpg) no-repeat;}
+.btn-gallery:hover{background-position:0 -0px;}
+.carousel-holder{
+	float:left;
+	/*width:900px;*/
+	overflow:hidden;
+}
+.carousel-holder .frame{
+	/*width:900px;*/
+	overflow:hidden;
+	background:url(../images/bg-carousel-bottom.gif) no-repeat 0 100%;
+	padding:10px 0 0;
+}
+.carousel{
+	width:360px;height:170px;
+	position:relative;
+	overflow:hidden;
+	margin:0;
+	float:left;
+	/*padding:0;*/
+	list-style:none;
+}
+.carousel li{
+	overflow:hidden;
+	position:absolute;
+	width:470px;
+	top:2px;
+	list-style:none;
+	/*padding:1px;*/
+	/*width:900px;*/
+
+}
+.carousel .block{
+	float:right;
+	margin:-10px 0 0;
+	padding:0 3px 0 0;
+	width:370px;
+
+}
+.carousel li img{float:left; }
+.carousel li .block img{margin:10px 0 0;}
+
+.btn-launch{
+	float:left;
+	overflow:hidden;
+	background:url(../images/btn-launch.gif) no-repeat;
+	width:92px;
+	height:23px;
+	margin:0;
+	text-indent:-9999px;
+}
+.btn-launch:hover{
+	background-position:0 100%;
+}
+/* tab-area */
+/*.tab-area{
+	width:100%;
+	float:left;
+}*/
+.tab-area div.tab{width:100%;}
+.tab-area div.tab:after{
+	height: 0;
+	clear: both;
+	content: "";
+	display: block;
+}
+.carousel-info{display:none;list-style:none;}
+
+.thumbheading
+{
+text-align:left;
+}

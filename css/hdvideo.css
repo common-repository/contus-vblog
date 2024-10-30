@@ -1,0 +1,83 @@
+div.hdvideo_thumbnail  {
+	position: relative;
+}
+
+.hdvideo_thumbnail .hdvideo_overlay_button {
+	position: absolute;
+	left: 93px;
+	top: 50px;
+	width: 32px;
+	height: 19px;
+}
+
+/*
+.hdvideo_thumbnail .hdvideo_overlay_button_audio {
+	position: absolute;
+	left: 110px;
+	top: 57px;
+	width: 19px;
+	height: 12px;
+}
+*/
+
+.hdvideo_button_container {
+    position: relative;
+    z-index: 1500;
+    font-weight: bold;
+    font-size: 14px;
+    float: right;
+}
+
+.hdvideo_button_container a {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.hdvideo_button_container img {
+    border: none;
+}
+
+#hdvideo_recorder_container {
+    display: none;
+    position: relative;
+    z-index: 2000;
+    
+}
+
+.hdvideo_player_link {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hdvideo_thumbnail_image {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 45px;
+    border: 1px #000 solid;
+}
+
+.hdvideo_play_video_comment {
+    text-decoration: none;
+}
+
+.hdvideo_close_player_link {
+    font-weight: bold;
+    color: #000;
+    font-size: 14px;
+}
+
+.hdvideo_player_container {
+    
+    font-weight: bold;
+    color: #000;
+}
+
+.hdvideo_close_recorder_container {
+    margin-left: 280px;
+    font-weight: bold;
+    color: black;
+    float: left;
+}
+
